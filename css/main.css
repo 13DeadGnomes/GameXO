@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.gameTable {
+  display: flex;
+  flex-wrap: wrap;
+  width: 240px;
+}
+
+.cell {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;align-items: center;
+  background-color: #cccccc;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+  font-size: 42px;
+  font-family: sans-serif;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: forestgreen;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+  padding: 10px;
+  cursor: pointer;
+}
